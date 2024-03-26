@@ -1,4 +1,5 @@
 def primes(n: int):
+    """Return a list of the first n prime"""
     sieve = [True] * n
     res = []
     for i in range(2, n):
@@ -11,5 +12,6 @@ def primes(n: int):
 
 x5 = primes(180)
 
+"""dev2 add comment"""
 print(x5)
 print("dev1 add something")
